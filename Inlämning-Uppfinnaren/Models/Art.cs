@@ -3,8 +3,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Diagnostics;
 using Microsoft.AspNetCore.Mvc;
+using Uppfinnaren.ViewModels;
 
-namespace Inlämning_Uppfinnaren.Models
+namespace Uppfinnaren.Models
 {
     public class Art
     {
@@ -16,6 +17,8 @@ namespace Inlämning_Uppfinnaren.Models
             public int CategoryId { get; set; }
             public decimal Price { get; set; }
             public Category Category { get; set; }
+            public bool ArtofTheWeek { get; set; }
+            public string Notes { get; set; }
         }
     }
 

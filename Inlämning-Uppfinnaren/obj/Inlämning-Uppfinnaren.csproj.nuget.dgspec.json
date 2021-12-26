@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "/Users/louiceborg/Documents/GitHub/Inl-mning-Uppfinnaren/Inlämning-Uppfinnaren/Inlämning-Uppfinnaren.csproj": {}
+    "/Users/louiceborg/Documents/GitHub/Inlämning-Uppfinnaren/Inlämning-Uppfinnaren/Inlämning-Uppfinnaren.csproj": {}
   },
   "projects": {
-    "/Users/louiceborg/Documents/GitHub/Inl-mning-Uppfinnaren/Inlämning-Uppfinnaren/Inlämning-Uppfinnaren.csproj": {
+    "/Users/louiceborg/Documents/GitHub/Inlämning-Uppfinnaren/Inlämning-Uppfinnaren/Inlämning-Uppfinnaren.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/louiceborg/Documents/GitHub/Inl-mning-Uppfinnaren/Inlämning-Uppfinnaren/Inlämning-Uppfinnaren.csproj",
+        "projectUniqueName": "/Users/louiceborg/Documents/GitHub/Inlämning-Uppfinnaren/Inlämning-Uppfinnaren/Inlämning-Uppfinnaren.csproj",
         "projectName": "Inlämning-Uppfinnaren",
-        "projectPath": "/Users/louiceborg/Documents/GitHub/Inl-mning-Uppfinnaren/Inlämning-Uppfinnaren/Inlämning-Uppfinnaren.csproj",
+        "projectPath": "/Users/louiceborg/Documents/GitHub/Inlämning-Uppfinnaren/Inlämning-Uppfinnaren/Inlämning-Uppfinnaren.csproj",
         "packagesPath": "/Users/louiceborg/.nuget/packages/",
-        "outputPath": "/Users/louiceborg/Documents/GitHub/Inl-mning-Uppfinnaren/Inlämning-Uppfinnaren/obj/",
+        "outputPath": "/Users/louiceborg/Documents/GitHub/Inlämning-Uppfinnaren/Inlämning-Uppfinnaren/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/louiceborg/.nuget/NuGet/NuGet.Config"
+          "/Users/louiceborg/.config/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net5.0"
@@ -41,6 +41,20 @@
             "Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation": {
               "target": "Package",
               "version": "[5.0.12, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.1, )"
+            },
+            "Microsoft.EntityFrameworkCore.InMemory": {
+              "target": "Package",
+              "version": "[5.0.1, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.1, )"
             }
           },
           "imports": [

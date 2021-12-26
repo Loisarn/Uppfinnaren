@@ -2,17 +2,21 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-using Inlämning_Uppfinnaren.Models;
-using Inlämning_Uppfinnaren.ViewModels;
+using Uppfinnaren.Models;
+using Uppfinnaren.ViewModels;
 
-namespace Inlämning_Uppfinnaren.Models
+namespace Uppfinnaren.Models
 {
     public class MockCategoryRepository : ICategoryRepository
     {
         public IEnumerable<Category> AllCategories =>
             new List<Category>
             {
-                new Category{CategoryId=1, CategoryName="Statues", cDescription="Statues"}
+                new Category{CategoryId=1, CategoryName="Statues", Cdescription="Animals"},
+                new Category{CategoryId=1, CategoryName="Statues", Cdescription="Toys"},
+                new Category{CategoryId=1, CategoryName="Statues", Cdescription="Bowls"},
+                new Category{CategoryId=1, CategoryName="Statues", Cdescription="Stools"},
+                new Category{CategoryId=1, CategoryName="Statues", Cdescription="Utensils"}
             };
     }
 }

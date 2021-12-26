@@ -11,13 +11,8 @@
 
 ## TODO - Kvar att göra
 
-*Jag har gjort allt enligt kravlistan men snubblar lite med tanke på att min Css inte är ett dugg imponerande.
-Detta kommer jag att försöka lösa mer i nästa veckas uppgift.*
+Jag har enhetstester kvar.
 
 ## Förtydliganden/motivering
 
-*I min list.cshtml så "kallar" jag på min lista så att den ska synas i webbläsaren.
-För att skapa listan har jag först gjort models med constructers och jag har även
-gjort repositorys, både IRepository och Mockrepository. I min Mockrepository har jag hårdkodat
-bilder och informationen som jag vill ha på min sida. Detta gör att det inte är några problem för mig
-att lägga till fler.*
+*I Uppfinnaren 2.0 har jag istället för MockRepos, en databas där jag har hårdkodat mina bilder. Jag har fyra nya kategorier.*

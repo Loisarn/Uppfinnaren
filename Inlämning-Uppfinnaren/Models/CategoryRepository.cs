@@ -1,10 +1,21 @@
 ﻿using System;
-namespace Inlämning_Uppfinnaren.Models
+using System.Collections.Generic;
+using System.Linq;
+using System.Threading.Tasks;
+using Uppfinnaren.Models;
+
+namespace Uppfinnaren.Models
 {
-    public class CategoryRepository
+    public class CategoryRepository : ICategoryRepository
     {
-        public CategoryRepository()
+        private readonly AppDbContext _appDbContext;
+
+        public CategoryRepository(AppDbContext appDbContext)
         {
+            _appDbContext = appDbContext;
         }
+
+        public IEnumerable<Category> AllCategories => _appDbContext.Categories;
+
     }
 }

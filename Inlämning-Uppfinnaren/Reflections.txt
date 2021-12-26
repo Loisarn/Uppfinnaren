@@ -1,1 +1,30 @@
-﻿
+﻿Ursprung:
+
+När jag ett nytt projekt (Uppfinnaren 1.0) så fanns där många filer redan, som hjälpte mig.
+Jag hade bland annat en HomeController och Views under mappen Home, där index och privacy fanns.
+Det jag gjorde först var att göra mina olika repositorys, Interface och Mockrepository.
+Jag gjorde även en ArtListViewModel. Det fanns redan en CSS-fil med lite färdig layout, som jag dock tog bort.
+Jag valde att lägga till den i Uppfinnaren 2.0 dock. Jag hårdkodade tre bilder som hamnade på home-sidan.
+Jag hade även en sida för kontakt. Min ArtController la jag också till i den första uppgiften. Många filer som t.ex ViewImports och ViewStart fanns också.
+
+
+
+
+
+Resultat:
+
+I Uppfinnaren 2.0 har jag valt att separera min kontaktsida från home-sidan. Dvs att jag gjorde en ContactController och en Contact i Views.
+Jag har även lagt till en HomeViewModel.
+Jag har även gjort vanliga repositorys och bytt ut MockRepostorys. Jag har lagt till en databas och därmed en Model som heter AppDbContext.
+I AppDbContext har jag hårdkodat bilderna som ska visas på hemsidan. För att få allt att fungera som de ska så har jag laddat ner Nuget-packages.
+Bland annat EntityFrameWorkCore och extra tillägg så som EntityFrameWorkCore.Tools och InMemory, som är min databas. Att vidareutveckla programmet är inte svårt.
+Jag anser att det är lätt att lägga till fler sidor om man vill, samt kategorier och bilder. Jag anser att det är tydligt vad som sker i mitt program.
+Skulle man vilja byta databas till SQL så är det väldigt enkelt också.
+
+Saker jag kunde gjort bättre:
+
+Layouten! Bilderna. Det finns mycket jag kunde gjort bättre, men med ordentligt CSS hade jag kommit långt. Jag är ovan vid Bootstrap och det är något
+jag behöver öva på. Att få ut idéer man har i huvudet, i programmet. Jag tycker dock att jag har lagt upp det bra för en gångs skull, även om Gill har gjort att
+jag har kunnat följa med på ett helt annat vis. Det är lärorikt för mig att kunna få skriva själv men samtidigt ha någon som visar ungefär hur jag ska göra,
+jag lär mig så mycket mer då.
+

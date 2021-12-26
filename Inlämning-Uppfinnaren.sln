@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.810.14
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Inlämning-Uppfinnaren", "Inlämning-Uppfinnaren\Inlämning-Uppfinnaren.csproj", "{1C110BFB-2E47-482C-B622-7F3260F27864}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Uppfinnaren", "Inlämning-Uppfinnaren\Uppfinnaren.csproj", "{1C110BFB-2E47-482C-B622-7F3260F27864}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

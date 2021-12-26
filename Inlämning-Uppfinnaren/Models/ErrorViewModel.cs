@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Inlämning_Uppfinnaren.Models
+namespace Uppfinnaren.Models
 {
     public class ErrorViewModel
     {

@@ -1,0 +1,25 @@
+﻿<Properties GitUserInfo="UsingGIT" StartupConfiguration="{1C110BFB-2E47-482C-B622-7F3260F27864}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Inlämning-Uppfinnaren/Startup.cs">
+    <Files>
+      <File FileName="Inlämning-Uppfinnaren/Startup.cs" Line="41" Column="14" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Inlämning-Uppfinnaren" expanded="True">
+            <Node name="Uppfinnaren" expanded="True">
+              <Node name="Startup.cs" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.Uppfinnaren PreferredExecutionTarget="/Applications/Safari.app" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

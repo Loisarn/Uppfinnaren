@@ -1,5 +1,5 @@
 {
-  "FilePath": "/Users/louiceborg/Documents/GitHub/Inl-mning-Uppfinnaren/Inlämning-Uppfinnaren/Inlämning-Uppfinnaren.csproj",
+  "FilePath": "/Users/louiceborg/Documents/GitHub/Inlämning-Uppfinnaren/Inlämning-Uppfinnaren/Uppfinnaren.csproj",
   "Configuration": {
     "ConfigurationName": "MVC-3.0",
     "LanguageVersion": "5.0",
@@ -15619,42 +15619,72 @@
   "RootNamespace": "Inlämning_Uppfinnaren",
   "Documents": [
     {
-      "FilePath": "/Users/louiceborg/Documents/GitHub/Inl-mning-Uppfinnaren/Inlämning-Uppfinnaren/Views/Home/Privacy.cshtml",
-      "TargetPath": "Views\\Home\\Privacy.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "/Users/louiceborg/Documents/GitHub/Inl-mning-Uppfinnaren/Inlämning-Uppfinnaren/Views/_ViewStart.cshtml",
-      "TargetPath": "Views\\_ViewStart.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "/Users/louiceborg/Documents/GitHub/Inl-mning-Uppfinnaren/Inlämning-Uppfinnaren/Views/Shared/_ValidationScriptsPartial.cshtml",
+      "FilePath": "/Users/louiceborg/Documents/GitHub/Inlämning-Uppfinnaren/Inlämning-Uppfinnaren/Views/Shared/_ValidationScriptsPartial.cshtml",
       "TargetPath": "Views\\Shared\\_ValidationScriptsPartial.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "/Users/louiceborg/Documents/GitHub/Inl-mning-Uppfinnaren/Inlämning-Uppfinnaren/Views/_ViewImports.cshtml",
-      "TargetPath": "Views\\_ViewImports.cshtml",
+      "FilePath": "/Users/louiceborg/Documents/GitHub/Inlämning-Uppfinnaren/Inlämning-Uppfinnaren/Views/Contact/Index.cshtml",
+      "TargetPath": "Views\\Contact\\Index.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "/Users/louiceborg/Documents/GitHub/Inl-mning-Uppfinnaren/Inlämning-Uppfinnaren/Views/Shared/_Layout.cshtml",
-      "TargetPath": "Views\\Shared\\_Layout.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "/Users/louiceborg/Documents/GitHub/Inl-mning-Uppfinnaren/Inlämning-Uppfinnaren/Views/Art/List.cshtml",
+      "FilePath": "/Users/louiceborg/Documents/GitHub/Inlämning-Uppfinnaren/Inlämning-Uppfinnaren/Views/Art/List.cshtml",
       "TargetPath": "Views\\Art\\List.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "/Users/louiceborg/Documents/GitHub/Inl-mning-Uppfinnaren/Inlämning-Uppfinnaren/Views/Shared/Error.cshtml",
+      "FilePath": "/Users/louiceborg/Documents/GitHub/Inlämning-Uppfinnaren/Inlämning-Uppfinnaren/Views/_ViewImports.cshtml",
+      "TargetPath": "Views\\_ViewImports.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/Users/louiceborg/Documents/GitHub/Inlämning-Uppfinnaren/Inlämning-Uppfinnaren/Views/Art/Toys.cshtml",
+      "TargetPath": "Views\\Art\\Toys.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/Users/louiceborg/Documents/GitHub/Inlämning-Uppfinnaren/Inlämning-Uppfinnaren/Views/Shared/Error.cshtml",
       "TargetPath": "Views\\Shared\\Error.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "/Users/louiceborg/Documents/GitHub/Inl-mning-Uppfinnaren/Inlämning-Uppfinnaren/Views/Home/Index.cshtml",
+      "FilePath": "/Users/louiceborg/Documents/GitHub/Inlämning-Uppfinnaren/Inlämning-Uppfinnaren/Views/Art/Details.cshtml",
+      "TargetPath": "Views\\Art\\Details.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/Users/louiceborg/Documents/GitHub/Inlämning-Uppfinnaren/Inlämning-Uppfinnaren/Views/Shared/_Carousel.cshtml",
+      "TargetPath": "Views\\Shared\\_Carousel.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/Users/louiceborg/Documents/GitHub/Inlämning-Uppfinnaren/Inlämning-Uppfinnaren/Views/_ViewStart.cshtml",
+      "TargetPath": "Views\\_ViewStart.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/Users/louiceborg/Documents/GitHub/Inlämning-Uppfinnaren/Inlämning-Uppfinnaren/Views/Shared/_Layout.cshtml",
+      "TargetPath": "Views\\Shared\\_Layout.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/Users/louiceborg/Documents/GitHub/Inlämning-Uppfinnaren/Inlämning-Uppfinnaren/Views/Art/Animals.cshtml",
+      "TargetPath": "Views\\Art\\Animals.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/Users/louiceborg/Documents/GitHub/Inlämning-Uppfinnaren/Inlämning-Uppfinnaren/Views/Art/Spoons.cshtml",
+      "TargetPath": "Views\\Art\\Spoons.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/Users/louiceborg/Documents/GitHub/Inlämning-Uppfinnaren/Inlämning-Uppfinnaren/Views/Art/Bowls.cshtml",
+      "TargetPath": "Views\\Art\\Bowls.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/Users/louiceborg/Documents/GitHub/Inlämning-Uppfinnaren/Inlämning-Uppfinnaren/Views/Home/Index.cshtml",
       "TargetPath": "Views\\Home\\Index.cshtml",
       "FileKind": "mvc"
     }

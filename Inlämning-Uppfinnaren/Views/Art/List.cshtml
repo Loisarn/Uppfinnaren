@@ -1,20 +1,21 @@
 ﻿
+@model ArtListViewModel
 
-@model Inlämning_Uppfinnaren.ViewModels.ArtListViewModel
 
     <h1>@Model.CurrentCategory</h1>
-
-    @foreach (var art in Model.Art)
-    {
+@foreach (var art in Model.Art)
+{
 <div class="col-sm-4 col-lg-4 col-md-4">
     <div class="thumbnail">
         <img src="@art.ImageUrl" alt="" style="width:40%; height:40%;">
         <div class="caption">
             <h3><a>@art.Name</a></h3>
             <p>@art.Description</p>
-            <h3>@art.Price.ToString("c")</h3>
+            <h3>@art.Price $</h3>
+            <h4>@art.Category.CategoryName</h4>
+            <a asp-controller="Art" asp-action="Details" asp-route-id="@art.ArtId">@art.Name</a>
         </div>
     </div>
 </div>
-    }
+}
 

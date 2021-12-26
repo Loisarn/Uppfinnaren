@@ -6,10 +6,10 @@ using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
-using Inlämning_Uppfinnaren.Models;
-using Inlämning_Uppfinnaren.ViewModels;
+using Uppfinnaren.Models;
+using Uppfinnaren.ViewModels;
 
-namespace Inlämning_Uppfinnaren
+namespace Uppfinnaren
 {
     public class Program
     {

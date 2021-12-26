@@ -1,37 +1,31 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Diagnostics;
 using System.Linq;
 using System.Threading.Tasks;
+using Uppfinnaren.Models;
+using Uppfinnaren.ViewModels;
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.Extensions.Logging;
-using Inlämning_Uppfinnaren.Models;
 
-namespace Inlämning_Uppfinnaren.Controllers
+namespace Uppfinnaren.Controllers
 {
     public class HomeController : Controller
     {
-        private readonly ILogger<HomeController> _logger;
+        private readonly IArtRepository _artRepository;
 
-        public HomeController(ILogger<HomeController> logger)
+        public HomeController(IArtRepository artRepository)
         {
-            _logger = logger;
+            _artRepository = artRepository;
         }
 
         public IActionResult Index()
         {
-            return View();
-        }
+            var homeViewModel = new HomeViewModel
+            {
+                ArtofTheWeek = _artRepository.ArtofTheWeek
+            };
 
-        public IActionResult Privacy()
-        {
-            return View();
-        }
-
-        [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
-        public IActionResult Error()
-        {
-            return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
+            return View(homeViewModel);
         }
     }
+
 }
